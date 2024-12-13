@@ -2,26 +2,38 @@
 
 # Dashboard de Criptomoedas
 
-Uma aplicação web dinâmica que busca e exibe dados de mercado de criptomoedas em tempo real, incluindo preços, valor de mercado e volumes de transações. A aplicação também visualiza os dados em gráficos interativos, oferecendo uma interface amigável para o usuário.
+Uma aplicação web interativa que exibe dados de mercado de criptomoedas em tempo real, como preços, valores de mercado e volumes de transações. O projeto utiliza gráficos dinâmicos e uma interface responsiva para oferecer uma experiência prática e informativa.
 
-## Funcionalidades
+---
 
-- **Dados de Criptomoedas em Tempo Real**: Busca informações da [API CoinGecko](https://www.coingecko.com/pt/api) sobre as 10 principais criptomoedas.
-- **Visualização de Dados**: Exibe gráficos de barras, pizza e linhas para preços, valor de mercado e volume de transações.
-- **Design Responsivo**: Adapta-se a diferentes tamanhos de tela para uma experiência de uso otimizada.
-- **Interface Interativa**: Efeitos de hover e transições suaves para melhorar a experiência do usuário.
+## ✨ Funcionalidades
 
-## Tecnologias Utilizadas
+- **📈 Dados em Tempo Real**: Consumo de informações das 10 principais criptomoedas diretamente da [API CoinGecko](https://www.coingecko.com/pt/api).
+- **📊 Visualização de Dados**:
+  - Gráfico de barras para preços.
+  - Gráfico de pizza para valores de mercado.
+  - Gráfico de linha para volumes de transações.
+- **📱 Design Responsivo**: Layout adaptável para dispositivos móveis e desktops.
+- **💡 Interface Interativa**: Elementos dinâmicos com transições suaves e feedback visual.
 
-- **HTML**: Estrutura da página.
-- **CSS**: Estilo e design, com foco em responsividade e temas escuros.
-- **JavaScript**: Lógica do aplicativo, manipulação de dados da API e geração de gráficos.
-- **Chart.js**: Biblioteca para criação de gráficos interativos.
-- **API CoinGecko**: Fonte de dados sobre criptomoedas.
+---
 
-## Como Usar
+## 🛠️ Tecnologias Utilizadas
 
-1. **Clonar o repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+- **Frontend**:
+  - HTML: Estruturação do conteúdo.
+  - CSS: Estilo visual com tema escuro e responsividade.
+  - JavaScript: Lógica de interação, requisições API e manipulação de gráficos.
+- **Bibliotecas e APIs**:
+  - [Chart.js](https://www.chartjs.org/): Criação de gráficos interativos.
+  - [CoinGecko API](https://www.coingecko.com/pt/api): Fonte de dados de criptomoedas.
+
+---
+
+## 🚀 Como Usar
+
+### 1️⃣ Clonar o Repositório
+Execute o comando abaixo para clonar o projeto:
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
